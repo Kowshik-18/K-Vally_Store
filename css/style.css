@@ -13,12 +13,7 @@ body {
 .common-color {
   color: #e29578 !important;
 }
-/* .search-field {
-  border: none;
-  border-radius: 50px;
-  padding: 5px;
-  outline: none;
-} */
+
 .search-field:hover {
   outline: none;
   border: none;
@@ -81,6 +76,8 @@ body {
 .cart-main {
   padding-right: 30px;
 }
+
+/* responsive part  */
 @media only screen and (max-width: 768px) {
   #all-products {
     display: grid;
